@@ -123,7 +123,7 @@ Fig 17: LVS check (1/2) for 4bit RCA.
 
 <img width="1337" height="764" alt="image" src="https://github.com/user-attachments/assets/31fd112a-d70e-4202-92fd-d707d883ffae" />
 
-Fig 17: LVS check (2/2) for 4bit RCA.
+Fig 18: LVS check (2/2) for 4bit RCA.
 
 
 Note: All of these design or layout are performed in Cadence Virtuoso design tool. Cadence Assura tool is used for DRC and LVS checks for layout in gpdk 180nm library. Widths of PMOS's are kept 2x the width of NMOS's.
