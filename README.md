@@ -14,10 +14,15 @@ Since we know that, to form a 4bit RCA we require four 1bit Full Adders. To make
 A half adder is a simple digital circuit used to add two binary numbers. It contains two outputs, namely Carry (C) and Sum (S), and two inputs, as A and B, denoting the two bits to be added. XOR and AND gates are two common logic gates that can be used to create the half adder.
 
 <img width="412" height="92" alt="image" src="https://github.com/user-attachments/assets/933b475c-3294-4848-ab6a-0939ef059f74" />
+
 Fig 2: Boolean Expression for Sum and Carry output of a Half Adder.
+
 <img width="447" height="221" alt="image" src="https://github.com/user-attachments/assets/55fdc110-d2f3-4062-84f6-07c58348935f" />
+
 Fig 3: Truth Table of a Half Adder.
+
 <img width="992" height="639" alt="image" src="https://github.com/user-attachments/assets/88452ae2-70ef-4ffd-880b-424a2452205c" />
+
 Fig 4: Schematic of a Half Adder.
 
 **1bit Full Adder**
