@@ -45,7 +45,7 @@ Fig 7: Truth Table of a 1bit Full Adder.
 Fig 8: Schematic of a 1bit Full Adder.
 
 
-**4bit RCA
+**4bit RCA**
 <img width="1580" height="432" alt="image" src="https://github.com/user-attachments/assets/0ba50b3c-f6fd-4b75-8fc9-08e604bcfad5" />
 
 Fig 9: Schematic of a 4bit Ripple Carry Adder.
@@ -57,26 +57,26 @@ Fig 10: Waveform of a 4bit Ripple Carry Adder.
 # Layout
 In this section, I will demonstrate how to construct the layout for a 4-bit Ripple Carry Adder (RCA). The process begins with creating the layouts for the individual components that make up the 4-bit RCA, specifically the Half Adders and Full Adders. Additionally, designing the layouts for the Half Adders and Full Adders necessitates constructing the layouts for the various logic gates involved in making of these adders. A maximum of two metal layers (metal 1 and metal 2) are used to form the connections (routes) for our design.
 
-**Layout - Inverter (CMOS logic)
+**Layout - Inverter (CMOS logic)**
 
 <img width="288" height="719" alt="image" src="https://github.com/user-attachments/assets/831ba550-0b7a-48ab-85ae-4222fb92c7fa" />
 
 Fig 11: Layout of an Inverter.
 
 
-**Layout - AND Gate (CMOS logic)
+**Layout - AND Gate (CMOS logic)**
 <img width="584" height="716" alt="image" src="https://github.com/user-attachments/assets/69469b9c-32bb-4b69-b3eb-2345ab15815f" />
 
 Fig 12: Layout of an AND Gate.
 
-**Layout - XOR Gate (CMOS logic)
+**Layout - XOR Gate (CMOS logic)**
 
 <img width="861" height="724" alt="image" src="https://github.com/user-attachments/assets/140478f5-74aa-4bee-9739-6bcdcd43ac9b" />
 
 Fig 13: Layout of a XOR Gate.
 
 
-**Layout - OR Gate (CMOS logic)
+**Layout - OR Gate (CMOS logic)**
 <img width="580" height="708" alt="image" src="https://github.com/user-attachments/assets/0054deee-fd94-4f7e-8309-1fa68e8520e3" />
 
 Fig 14: Layout of a OR Gate.
@@ -90,7 +90,7 @@ Since we know, to form a half adder requires a XOR and an AND gate. Similarly, w
 Fig 15: Layout of a Half Adder.
 
 
-**Layout - 1bit Full Adder (CMOS logic)
+**Layout - 1bit Full Adder (CMOS logic)**
 A 1bit full adder requires 2 half adders and an OR gate. We'll instantiate these already formed components to form a 1bit full Adder. Remember additional routing is to be done to connect these components of the FA
 
 <img width="1585" height="348" alt="image" src="https://github.com/user-attachments/assets/f8a95222-7c41-4e28-bf41-a75a3f730073" />
@@ -98,7 +98,7 @@ A 1bit full adder requires 2 half adders and an OR gate. We'll instantiate these
 Fig 15: Layout of a 1bit Full Adder.
 
 
-**Layout - 4bit RCA (CMOS logic)
+**Layout - 4bit RCA (CMOS logic)**
 A 4bit RCA requires four 1bit Full adders connected in series (cascade fashion). We will instantiate them and connect the carry outs to carry in of the successive 1bit FA to form a 4bit RCA.
 
 <img width="893" height="721" alt="image" src="https://github.com/user-attachments/assets/fcaea13c-fd02-4d05-b030-b4158586470a" />
