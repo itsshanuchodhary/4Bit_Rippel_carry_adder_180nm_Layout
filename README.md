@@ -4,6 +4,7 @@ Layout of 4bit Ripple Carry Adder formed using CMOS logic in gpdk180nm technolog
 # 4bit Ripple Carry Adder (RCA)
 A 4-bit Ripple Carry Adder (RCA) is formed using four 1-bit Full Adders cascaded in a series connection with the Carry out of one stage acting as Carry in to another stage. A 4-bit Ripple Carry Adder (RCA) is used to calculate the binary addition of two 4bit binary numbers. Since it is made using four 1-bit Full Adders, a 4-bit RCA has 8 inputs namely (A0 B0,………A3B3) and 4 Sum outputs namely (S0,…..S3) and a single Carry in as (Cin) to the adder at first stage and a single Carry out as (Cout) from the final stage in the adder chain
 <img width="357" height="200" alt="image" src="https://github.com/user-attachments/assets/4bb744ee-c7f6-4677-beb4-76331149932a" />
+
 Fig 1: Adding two 4bit numbers.
 
 # Ripple Carry Adder formed using CMOS logic
@@ -14,10 +15,8 @@ A half adder is a simple digital circuit used to add two binary numbers. It cont
 
 <img width="412" height="92" alt="image" src="https://github.com/user-attachments/assets/933b475c-3294-4848-ab6a-0939ef059f74" />
 Fig 2: Boolean Expression for Sum and Carry output of a Half Adder.
-
 <img width="447" height="221" alt="image" src="https://github.com/user-attachments/assets/55fdc110-d2f3-4062-84f6-07c58348935f" />
 Fig 3: Truth Table of a Half Adder.
-
 <img width="992" height="639" alt="image" src="https://github.com/user-attachments/assets/88452ae2-70ef-4ffd-880b-424a2452205c" />
 Fig 4: Schematic of a Half Adder.
 
