@@ -3,6 +3,7 @@ Layout of 4bit Ripple Carry Adder formed using CMOS logic in gpdk180nm technolog
 
 # 4bit Ripple Carry Adder (RCA)
 A 4-bit Ripple Carry Adder (RCA) is formed using four 1-bit Full Adders cascaded in a series connection with the Carry out of one stage acting as Carry in to another stage. A 4-bit Ripple Carry Adder (RCA) is used to calculate the binary addition of two 4bit binary numbers. Since it is made using four 1-bit Full Adders, a 4-bit RCA has 8 inputs namely (A0 B0,………A3B3) and 4 Sum outputs namely (S0,…..S3) and a single Carry in as (Cin) to the adder at first stage and a single Carry out as (Cout) from the final stage in the adder chain
+
 <img width="357" height="200" alt="image" src="https://github.com/user-attachments/assets/4bb744ee-c7f6-4677-beb4-76331149932a" />
 
 Fig 1: Adding two 4bit numbers.
@@ -46,6 +47,7 @@ Fig 8: Schematic of a 1bit Full Adder.
 
 
 **4bit RCA**
+
 <img width="1580" height="432" alt="image" src="https://github.com/user-attachments/assets/0ba50b3c-f6fd-4b75-8fc9-08e604bcfad5" />
 
 Fig 9: Schematic of a 4bit Ripple Carry Adder.
@@ -65,6 +67,7 @@ Fig 11: Layout of an Inverter.
 
 
 **Layout - AND Gate (CMOS logic)**
+
 <img width="584" height="716" alt="image" src="https://github.com/user-attachments/assets/69469b9c-32bb-4b69-b3eb-2345ab15815f" />
 
 Fig 12: Layout of an AND Gate.
@@ -77,6 +80,7 @@ Fig 13: Layout of a XOR Gate.
 
 
 **Layout - OR Gate (CMOS logic)**
+
 <img width="580" height="708" alt="image" src="https://github.com/user-attachments/assets/0054deee-fd94-4f7e-8309-1fa68e8520e3" />
 
 Fig 14: Layout of a OR Gate.
